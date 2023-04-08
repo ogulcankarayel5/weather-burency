@@ -4,6 +4,7 @@ import styles from "./index.module.scss";
 import { WeatherContextProvider, useWeather } from "../../context/weather";
 import { Spin } from "antd";
 import HomeHeader from "./components/header";
+import HomeContent from "./components/content";
 
 const Home = () => {
   const {
@@ -36,6 +37,7 @@ const Home = () => {
       ) : (
         <>
           <HomeHeader />
+          <HomeContent />
         </>
       )}
     </div>
