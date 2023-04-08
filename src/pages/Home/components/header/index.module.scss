@@ -1,0 +1,52 @@
+.title {
+  color: white;
+  font-size: 2rem;
+}
+
+.subTitle {
+  color: white;
+  font-weight: 300;
+  font-size: 1rem;
+  margin-top: 6px;
+}
+
+.date {
+  color: rgb(209, 204, 204);
+  margin-top: 6px;
+}
+
+.currentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.currentTempContainer {
+  margin-right: 12px;
+  display: flex;
+  flex-direction: column;
+  & > p {
+    color: white;
+    &:first-child {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    &:nth-child(2) {
+      margin-top: 4px;
+      font-weight: 300;
+    }
+    &:last-child {
+      margin-top: 4px;
+    }
+  }
+}
+
+.box {
+  background-color: #14365d;
+  padding: 8px;
+  border-radius: 8px;
+  & > div {
+    margin-top: 4px;
+  }
+}
